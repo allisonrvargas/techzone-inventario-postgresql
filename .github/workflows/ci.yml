@@ -24,7 +24,7 @@ jobs:
       PGPASSWORD: postgres
       PGDATABASE: techzone
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Crear tablas, insertar datos y crear el procedimiento
         run: |
           psql -v ON_ERROR_STOP=1 -f db.sql
