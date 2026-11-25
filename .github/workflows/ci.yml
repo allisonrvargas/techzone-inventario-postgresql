@@ -32,3 +32,5 @@ jobs:
           psql -v ON_ERROR_STOP=1 -f procedure.sql
       - name: Ejecutar las consultas
         run: psql -v ON_ERROR_STOP=1 -f queries.sql
+      - name: Verificar datos, procedimiento y restricciones
+        run: psql -v ON_ERROR_STOP=1 -f tests/verificar.sql
