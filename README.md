@@ -1,5 +1,4 @@
-# gestiòn_de_Inventario_examen
-# TechZone - Sistema de Gestión de Inventario y Ventas
+# 🖥️ TechZone · Sistema de Gestión de Inventario y Ventas (PostgreSQL)
 
 ## Descripción del Proyecto
 TechZone es una solución integral para el control de inventario, proveedores y registros de ventas en PostgreSQL. Permite automatizar la deducción de inventario, validar existencias en tiempo real y consultar reportes analíticos de rendimiento comercial.
@@ -9,7 +8,7 @@ TechZone es una solución integral para el control de inventario, proveedores y 
 ![alt text](image-6.png)
 
 
-## Creaciòn de Tablas
+## Creación de Tablas
 
 ![alt text](image-7.png)
 
