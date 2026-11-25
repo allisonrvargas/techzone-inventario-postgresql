@@ -1,0 +1,14 @@
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.log
+
+# Secretos y respaldos de bases de datos
+.env
+.env.*
+*.dump
+*.bak
